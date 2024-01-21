@@ -8,13 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        lightGreen: "#68B2A0",
+        darkGreen: "#2C6975",
+        lightBackground: "#F8F8F8",
+        darkBackground: "#22262D",
+        darkBlack: "#000000",
+        grayColor: "#22262D",
+        yellowColor: "FFE033",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
 export default config;
