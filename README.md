@@ -8,21 +8,21 @@ Want to see it in action? You can find the website [here](https://anmolpandita.v
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Next JS:
+## Next JS:
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Installing dependencies
+## Installing dependencies
 
 npm install
 
-# add your sanity ID inside in .env
+## add your sanity ID inside in .env
 
-# Edit Components as you like
+## Edit Components as you like
 
-# As this uses typescript and staticProps therefore the project doesn't contain app dir only pages and index.tsx inside pages dir is the main file for the output.
+## As this uses typescript and staticProps therefore the project doesn't contain app dir only pages and index.tsx inside pages dir is the main file for the output.
 
-# After all this Start with the commands below :-
+## After all this Start with the commands below :-
 
 First, run the development server:
 
