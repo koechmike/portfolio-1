@@ -4,6 +4,7 @@ import { urlFor } from "../sanity";
 import { Project } from "../typings";
 import Link from "next/link";
 import Image from "next/image";
+import { MdSwipe } from "react-icons/md";
 
 type Props = { projects: Project[] };
 
@@ -19,7 +20,7 @@ export default function Projects({ projects }: Props) {
         Projects
       </h3>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-darkGreen/80 md:mt-16">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-darkGreen/80 md:mb-1 mb-14">
         {projects?.map((project, i) => (
           <div
             key={project._id}
@@ -61,12 +62,15 @@ export default function Projects({ projects }: Props) {
               <p className="text-base text-justify w-full md:w-[900px]">
                 {project?.summary}
               </p>
+              <a className=" justify-center flex flex-row">
+                <MdSwipe className=" h-10 w-10 -mb-10" />
+              </a>
             </div>
           </div>
         ))}
       </div>
 
-      <div className="w-full absolute sm:top-[18%] md:top-[28%] bg-[#F7AB0A]/20 h-[75%] md:h-96 md:-skew-y-12 rounded-full md:rounded-none "></div>
+      <div className="w-full absolute top-[15%] md:top-[28%] bg-[#F7AB0A]/20 h-[75%] md:h-96 md:-skew-y-12 rounded-full md:rounded-none "></div>
     </motion.div>
   );
 }
