@@ -26,11 +26,11 @@ export default function ContactMe({}: Props) {
       id="contactme"
       className="h-screen flex relative overflow-hidden flex-col text-white text-center md:flex-row max-w-full px-10 justify-evenly items-center "
     >
-      <h3 className="absolute top-24 md:top-20 uppercase tracking-[10px] md:tracking-[15px] text-gray-500 text-xl md:text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[10px] md:tracking-[15px] text-gray-500 text-xl md:text-2xl">
         {"Let's Connect"}
       </h3>
       <div className="flex flex-col space-y-4 md:space-y-5 lg:space-y-6 xl:space-y-6 2xl:space-y-10 sm:mt-10 md:mt-5 xl:mt-20">
-        <h4 className="text-xl lg:text-2xl 2xl:text-3xl font-semibold text-center">
+        <h4 className="text-xl lg:text-2xl 2xl:text-3xl font-semibold text-center md:mt-4">
           I have got just what you need.{" "}
           <span className="decoration-darkGreen/50 underline">Lets talk.</span>
         </h4>

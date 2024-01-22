@@ -16,11 +16,11 @@ export default function Projects({ projects }: Props) {
       transition={{ duration: 1.5 }}
       className=" h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0  "
     >
-      <h3 className="absolute top-24 md:top-20 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
         Projects
       </h3>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-darkGreen/80 md:mb-0 mb-14">
+      <div className="relative md:top-4 w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-darkGreen/80 md:mb-0 mb-14">
         {projects?.map((project, i) => (
           <div
             key={project._id}
@@ -63,7 +63,7 @@ export default function Projects({ projects }: Props) {
                 {project?.summary}
               </p>
               <a className=" justify-center flex flex-row">
-                <MdSwipe className=" h-10 w-10 -mb-10" />
+                <MdSwipe className=" h-10 w-10 -mb-20" />
               </a>
             </div>
           </div>
