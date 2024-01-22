@@ -1,3 +1,9 @@
+# Anmol's Portfolio
+
+![My Remote Image](https://github.com/AnmolPandita-sudo/portfolio/blob/master/portfolio.png)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
