@@ -16,8 +16,6 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Link from "next/link";
-import { HomeIcon } from "@heroicons/react/24/solid";
-import Script from "next/script";
 import dynamic from "next/dynamic";
 
 type Props = {

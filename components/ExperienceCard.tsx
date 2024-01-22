@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "framer-motion";
 import { urlFor } from "../sanity";
 import { Experience } from "../typings";
@@ -7,7 +8,7 @@ type Props = { experience: Experience };
 
 export default function ExperienceCard({ experience }: Props) {
   return (
-    <article className=" flex flex-col rounded-t-full md:rounded-3xl items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:[900px] bg-[#292929] snap-center p-10 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 ">
+    <article className=" flex flex-col rounded-t-full md:rounded-3xl items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:[900px] bg-[#292929] snap-center p-10 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 -mt-10 md:mt-0 ">
       <motion.img
         initial={{ opacity: 0, y: -100 }}
         whileInView={{ opacity: 1, y: 0 }}

@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "framer-motion";
 import { Skill as SkillType } from "../typings";
 import Skill from "./Skill";

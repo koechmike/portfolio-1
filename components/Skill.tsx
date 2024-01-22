@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "framer-motion";
 import { Skill as mySkill } from "../typings";
 import { urlFor } from "../sanity";
