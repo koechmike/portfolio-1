@@ -10,7 +10,7 @@ type Props = {
 
 export default function Skill({ skill, directionLeft }: Props) {
   return (
-    <div className="group relative flex cursor-pointer md:top-14 md:px-10 md:hover:shadow-2xl">
+    <div className="group relative flex cursor-pointer md:px-5 md:hover:shadow-2xl ">
       <motion.img
         initial={{ x: directionLeft ? -30 : 30, opacity: 0 }}
         whileInView={{ opacity: 1, x: 0 }}

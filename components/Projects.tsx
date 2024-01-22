@@ -20,7 +20,7 @@ export default function Projects({ projects }: Props) {
         Projects
       </h3>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-darkGreen/80 md:mb-1 mb-14">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-darkGreen/80 md:mb-0 mb-14">
         {projects?.map((project, i) => (
           <div
             key={project._id}
@@ -36,7 +36,7 @@ export default function Projects({ projects }: Props) {
               alt=""
             />
 
-            <div className="space-y-5 md:space-y-10 px-0 md:px-10 max-w-6xl">
+            <div className="space-y-5 px-0 md:px-10 max-w-6xl">
               <h4 className="text-xl font-semibold text-center">
                 <span className="">Project {i + 1}:</span>{" "}
                 <Link href={project.linkToBuild} className="">
